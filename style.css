@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+    text-transform: uppercase;
+}
+
+body {
+    position: relative;
+}
+
+.hero {
+    background-image: url("./Assets/2nd_img.png");
+    height: 101vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -60px;
+}
+
+.hero .card {
+    background-color: #ffffffd1;
+}
+
+.hero .card-body {
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .card-title {
+    color: #2b3a41;
+    font-size: 52px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: 'Great Vibes', cursive;
+    margin-bottom: -10px;
+    text-align: center;
+}
+
+.hero .card-text {
+    color: #ad6c12;
+    font-size: 52px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+/* flavours */
+
+.flav {
+    background-color: #2a3c40;
+    height: 70vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flav-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flav h4 {
+    font-size: 26px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.flav p {
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+
+.options {
+    background-color: #d4d8d9;
+    height: 50vh;
+    color: #2a3c40;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.options .test {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+
+/* Menu */
+.menu {
+    background-image: url("./Assets/4th_img.png");
+    height: 200vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-cont {
+    width: 80vw;
+}
+
+.menu .card {
+    background-color: #ffffffd1;
+    width: 100%;
+}
+
+.menu .card-body {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu .card-title {
+    color: #2b3a41;
+    font-size: 52px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: 'Great Vibes', cursive;
+    margin-bottom: -10px;
+    text-align: center;
+}
+
+.menu .card-text {
+    color: #ad6c12;
+    font-size: 42px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+.menu .card-img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.menu .col-md-3, .col-md-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.bg-blur {
+    background-color: #ffffffd1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.bg-blur h3 {
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: #2a3c40;
+    margin-bottom: 20px;
+}
+
+.bg-blur p {
+    text-align: center;
+}
+
+.bg-blur h6 {
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+    color: #2a3c40;
+}
+
+/* Traditional */
+.traditional {
+    background-color: #d4d8d9;
+    height: 50vh;
+    color: #2a3c40;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.traditional .test {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+}
+
+.traditional .f-d-c {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.traditional .navs{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.traditional .navs p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+}
+
+
+/* Discover */
+.discover {
+    background-image: url("./Assets/4th_img.png");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.discover .main-cont {
+    width: 100vw;
+}
+
+.discover .card {
+    background-color: #ffffffd1;
+    width: 100%;
+}
+
+.discover .card-body {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.discover .card-title {
+    color: #2b3a41;
+    font-size: 52px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: 'Great Vibes', cursive;
+    margin-bottom: -10px;
+    text-align: center;
+}
+
+.discover .card-text {
+    color: #ad6c12;
+    font-size: 42px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+.discover .card-img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.discover .col-md-3, .col-md-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.discover h3 {
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: #2a3c40;
+    margin-bottom: 20px;
+}
+
+.discover span{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+}
